@@ -28,7 +28,18 @@
 </template>
 
 <script>
-export default {}
+export default {
+  head: {
+    title: 'Nuxtjs first Home page',
+    meta: [
+      {
+        hid: 'description',
+        name: 'description',
+        content: 'Home page description'
+      }
+    ],
+  }
+}
 </script>
 
 <style>
