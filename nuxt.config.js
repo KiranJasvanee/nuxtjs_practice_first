@@ -2,7 +2,7 @@ export default {
   // Target (https://go.nuxtjs.dev/config-target)
   target: 'static',
   router: {
-    base: '/nuxtpracticeone/'
+    base: '/nuxtjs_practice_first/'
   },
 
   // Global page headers (https://go.nuxtjs.dev/config-head)
