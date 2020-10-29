@@ -29,14 +29,16 @@
 
 <script>
 export default {
-   metaInfo: {
-      title: 'My Example App',
-      titleTemplate: '%s - Yay!',
-      htmlAttrs: {
-        lang: 'en',
-        amp: true
-      }
+   head () {
+    return {
+      title: `Testing Title`,
+      meta: [{
+        hid: `description`,
+        name: 'description',
+        content: `Testing Description`
+      }],
     }
+  }
 }
 </script>
 
