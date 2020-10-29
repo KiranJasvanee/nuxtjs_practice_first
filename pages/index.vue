@@ -40,7 +40,7 @@ export default {
         hid: `og:image`,
         name: 'og:image',
         property: 'og:image',
-        content: `https://www.swiftbysundell.com/images/logo.png`
+        content: `https://www.swiftbysundell.com/images/social.png`
       }
       ],
     }
