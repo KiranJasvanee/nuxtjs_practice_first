@@ -31,14 +31,6 @@
 export default {
   head: {
     title: 'Nuxtjs first Home page',
-    meta: [
-      { hid: "twitter:card", name: "twitter:card", content: options.twitter_card },
-      { hid: "twitter:site", name: "twitter:site", content: options.twitter },
-      { hid: "twitter:creator", name: "twitter:creator", content: options.twitter },
-      { hid: "twitter:title", name: "twitter:title", content: options.title },
-      { hid: "twitter:description", name: "twitter:description", content: options.description },
-      { hid: "twitter:image", name: "twitter:image", content: options.img },
-    ],
   }
 }
 </script>
