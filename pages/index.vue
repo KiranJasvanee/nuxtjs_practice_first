@@ -31,6 +31,12 @@
 export default {
   head: {
     title: 'Nuxtjs first Home page',
+    meta: [
+      { charset: 'utf-8' },
+      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+      { name: 'description', content: 'Meta description' },
+      { name: 'og:description', content: 'Meta description' },
+    ],
   }
 }
 </script>
