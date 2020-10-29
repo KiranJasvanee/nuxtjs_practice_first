@@ -36,7 +36,12 @@ export default {
         hid: `description`,
         name: 'description',
         content: `Testing Description`
-      }],
+      },{
+        hid: `og:image`,
+        name: 'og:image',
+        content: `https://www.swiftbysundell.com/images/logo.png`
+      }
+      ],
     }
   }
 }
