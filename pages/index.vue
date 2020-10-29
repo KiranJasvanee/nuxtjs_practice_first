@@ -32,12 +32,11 @@ export default {
   head: {
     title: 'Nuxtjs first Home page',
     meta: [
-      // { hid: "twitter:card", name: "twitter:card", content: options.twitter_card },
-      { hid: "twitter:site", name: "twitter:site", content: "@kiranjasvanee" },
-      { hid: "twitter:creator", name: "twitter:creator", content: "@kiranjasvanee" },
-      { hid: "twitter:title", name: "twitter:title", content: "Nuxtjs first Home page" },
-      { hid: "twitter:description", name: "twitter:description", content: "Tersting description" },
-      { hid: "twitter:image", name: "twitter:image", content: "https://www.pagalworld.mobi/GpE34Kg9Gq/113462/144164-badaami-rang-nikk-mp3-song-300.jpg" },
+      {
+        hid: 'description',
+        name: 'description',
+        content: 'Home page description'
+      }
     ],
   }
 }
