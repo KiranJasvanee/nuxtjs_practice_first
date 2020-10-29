@@ -9,6 +9,8 @@ export default {
   head: {
     title: 'nuxt-blog-seo',
     meta: [
+      { charset: 'utf-8' },
+      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: "twitter:card", name: "twitter:card", content: options.twitter_card },
       { hid: "twitter:site", name: "twitter:site", content: options.twitter },
       { hid: "twitter:creator", name: "twitter:creator", content: options.twitter },
