@@ -58,6 +58,10 @@ export default {
         hid: `twitter:image`,
         name: 'twitter:image',
         content: `https://pbs.twimg.com/media/Elk4bvfWkAAesRR?format=jpg&name=small`
+      },{
+        hid: `twitter:url`,
+        name: 'twitter:url',
+        content: `https://kiranjasvanee.github.io/nuxtjs_practice_first`
       }
       ],
     }
