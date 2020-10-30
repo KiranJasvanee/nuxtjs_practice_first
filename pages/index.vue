@@ -56,7 +56,7 @@ export default {
       },{
         hid: `twitter:image`,
         name: 'twitter:image',
-        content: `https://www.swiftbysundell.com/images/social.png`
+        content: `https://pbs.twimg.com/media/Elk4bvfWkAAesRR?format=jpg&name=small`
       }
       ],
     }
