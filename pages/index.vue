@@ -45,6 +45,18 @@ export default {
         name: 'og:image',
         property: 'og:image',
         content: `https://www.swiftbysundell.com/images/social.png`
+      },{
+        hid: `twitter:card`,
+        name: 'twitter:card',
+        content: `Summary`
+      },{
+        hid: `twitter:title`,
+        name: 'twitter:title',
+        content: `Twitter description`
+      },{
+        hid: `twitter:image`,
+        name: 'twitter:image',
+        content: `https://www.swiftbysundell.com/images/social.png`
       }
       ],
     }
