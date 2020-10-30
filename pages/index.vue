@@ -33,8 +33,8 @@ export default {
     return {
       title: `Testing Title`,
       meta: [{
-        hid: `description`,
-        name: 'description',
+        hid: `og:description`,
+        name: 'og:description',
         content: `Testing Description`
       },{
         hid: `og:image`,
