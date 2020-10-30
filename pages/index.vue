@@ -48,7 +48,8 @@ export default {
       },{
         hid: `twitter:card`,
         name: 'twitter:card',
-        content: `Summary`
+        // content: `Summary`
+        content: `summary_large_image`
       },{
         hid: `twitter:title`,
         name: 'twitter:title',
