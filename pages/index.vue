@@ -33,6 +33,10 @@ export default {
     return {
       title: `Testing Title`,
       meta: [{
+        hid: `description`,
+        name: 'description',
+        content: `Testing Description - d`
+      },{
         hid: `og:description`,
         name: 'og:description',
         content: `Testing Description`
