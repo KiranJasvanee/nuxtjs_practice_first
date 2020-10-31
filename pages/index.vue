@@ -71,7 +71,7 @@ export default {
         content: `@kiranjasvanee`
       },{
         hid: `twitter:description`,
-        name: 'twitter:creadescriptiontor',
+        name: 'twitter:description',
         content: `Twitter description`
       }
       ],
