@@ -48,20 +48,31 @@ export default {
       },{
         hid: `twitter:card`,
         name: 'twitter:card',
-        // content: `Summary`
         content: `summary_large_image`
+      },{
+        hid: `twitter:site`,
+        name: 'twitter:site',
+        content: `@kiranjasvanee`
       },{
         hid: `twitter:title`,
         name: 'twitter:title',
-        content: `Twitter description`
+        content: `Twitter Title`
       },{
         hid: `twitter:image`,
         name: 'twitter:image',
-        content: `https://pbs.twimg.com/media/Elk4bvfWkAAesRR?format=jpg&name=small`
+        content: `https://farm6.staticflickr.com/5510/14338202952_93595258ff_z.jpg`
       },{
         hid: `twitter:url`,
         name: 'twitter:url',
         content: `https://kiranjasvanee.github.io/nuxtjs_practice_first`
+      },{
+        hid: `twitter:creator`,
+        name: 'twitter:creator',
+        content: `@kiranjasvanee`
+      },{
+        hid: `twitter:description`,
+        name: 'twitter:creadescriptiontor',
+        content: `Twitter description`
       }
       ],
     }
