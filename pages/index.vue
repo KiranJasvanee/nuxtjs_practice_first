@@ -44,7 +44,7 @@ export default {
         hid: `og:image`,
         name: 'og:image',
         property: 'og:image',
-        content: `https://www.swiftbysundell.com/images/social.png`
+        content: `https://farm6.staticflickr.com/5510/14338202952_93595258ff_z.jpg`
       },{
         hid: `twitter:card`,
         name: 'twitter:card',
