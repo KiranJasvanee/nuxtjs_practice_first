@@ -30,51 +30,23 @@
 <script>
 export default {
    head () {
-    return {
-      title: `Testing Title`,
-      meta: [{
-        hid: `description`,
-        name: 'description',
-        content: `Testing Description - d`
-      },{
-        hid: `og:description`,
-        name: 'og:description',
-        content: `Testing Description`
-      },{
-        hid: `og:image`,
-        name: 'og:image',
-        property: 'og:image',
-        content: `https://farm6.staticflickr.com/5510/14338202952_93595258ff_z.jpg`
-      },{
-        hid: `twitter:card`,
-        name: 'twitter:card',
-        content: `summary_large_image`
-      },{
-        hid: `twitter:site`,
-        name: 'twitter:site',
-        content: `@kiranjasvanee`
-      },{
-        hid: `twitter:title`,
-        name: 'twitter:title',
-        content: `Twitter Title`
-      },{
-        hid: `twitter:image`,
-        name: 'twitter:image',
-        content: `https://farm6.staticflickr.com/5510/14338202952_93595258ff_z.jpg`
-      },{
-        hid: `twitter:url`,
-        name: 'twitter:url',
-        content: `https://kiranjasvanee.github.io/nuxtjs_practice_first`
-      },{
-        hid: `twitter:creator`,
-        name: 'twitter:creator',
-        content: `@kiranjasvanee`
-      },{
-        hid: `twitter:description`,
-        name: 'twitter:description',
-        content: `Twitter description`
+     return this.$metaDataWrapper.wrapMetaData('Testing Param Title-1', `Testing Description-1`)
+     ///return this.greet('Testing Param Title', `Testing Description - 1`)    
+  },
+  methods: {
+    greet: function (metaTitle, metaDesc) {
+      // `this` inside methods point to the Vue instance 
+      return {
+        title: metaTitle,
+        meta: [{
+          hid: `description`,
+          name: 'description',
+          content: metaDesc
+        }
+        ],
       }
-      ],
+      // console.log('Got the thing. ' + metaTitle)
+      
     }
   }
 }

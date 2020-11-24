@@ -7,11 +7,11 @@ export default {
 
   // Global page headers (https://go.nuxtjs.dev/config-head)
   head: {
-    title: 'nuxt-blog-seo',
+    title: 'Coding Mania',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { name: 'description', content: 'Meta description' }
+      { name: 'description', content: 'Weekly and daily posts about Swift, SwiftUI, Apple Development' }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
@@ -24,6 +24,7 @@ export default {
 
   // Plugins to run before rendering page (https://go.nuxtjs.dev/config-plugins)
   plugins: [
+    '~/plugins/MetaDataWrapper.js'
   ],
 
   // Auto import components (https://go.nuxtjs.dev/config-components)
